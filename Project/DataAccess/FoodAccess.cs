@@ -17,27 +17,4 @@ static class FoodAccess
         File.WriteAllText(path, json);
     }
 
-    public static List<FoodModel> AscIDMyJson()
-    {
-        string json = File.ReadAllText(FoodAccess.path);
-        var listOb = JsonSerializer.Deserialize<List<FoodModel>>(json);
-        var descListOb = listOb!.OrderBy(x => x.Id).ToList();
-        return descListOb;
-    }
-
-    public static List<FoodModel> AscNameMyJson()
-    {
-        string json = File.ReadAllText(FoodAccess.path);
-        var listOb = JsonSerializer.Deserialize<List<FoodModel>>(json);
-        var descListOb = listOb!.OrderBy(x => x.Name).ToList();
-        return descListOb;
-    }
-
-    public static List<FoodModel> AscPriceMyJson()
-    {
-        string json = File.ReadAllText(FoodAccess.path);
-        var listOb = JsonSerializer.Deserialize<List<FoodModel>>(json);
-        var descListOb = listOb!.OrderBy(x => x.Price).ToList();
-        return descListOb;
-    }
 }
