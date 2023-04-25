@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1vVpgo0TDEBhgReVfDX60D4luuzxZYJGfxvBQEWZXE4HWbyXTsToFDSKFAkbUt06hY0z/LarovP5fF5sG5S0lw==",
+  "dgSpecHash": "N919YWvZck5C1oD1RkwnByw4+9Kb9q7IC5tqRejZADngmnCeeRn/Yk05sQSvBU2pMMe1sxYltVYuQwyj/z/9FA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KruKY\\OneDrive - Hogeschool Rotterdam\\ProjectB\\Template version 2\\ThreeLayerTemplate\\Project\\Project.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Basic\\OneDrive\\Desktop\\Connected TLT\\ThreeLayerTemplate\\Project\\Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Basic\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
